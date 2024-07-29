@@ -3,8 +3,9 @@
 # Emscripten version
 emcc -v
 
-EMSDK="/Users/tini2n/emsdk"
-#$EMSDK/upstream/bin/llvm-nm --version
+#EMSDK="/Users/tini2n/emsdk"
+EMSDK="/emsdk"
+$EMSDK/upstream/bin/llvm-nm --version
 
 # Clean previous builds
 emmake make clean
